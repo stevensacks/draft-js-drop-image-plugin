@@ -1,0 +1,40 @@
+.outline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    outline: 2px dashed #ffab40;
+    opacity: 0;
+    cursor: default;
+}
+
+.drop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    input[type=file] {
+        position: fixed;
+        top: -5%;
+        left: -5%;
+        display: none;
+        width: 110%;
+        height: 110%;
+    }
+}
+
+
+.hover {
+    z-index: 100000;
+    opacity: 1;
+
+    input[type=file] {
+        display: block;
+        opacity: 0;
+    }
+}
