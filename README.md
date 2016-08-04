@@ -7,7 +7,7 @@ This library is provided as a how-to guide. You may need to modify a little of t
 The editor must have been focused at least once for this to work. Otherwise, it will replace the webpage with the image that was dropped on the browser. I force the editor to focus on componentDidMount().
 
 ## Things To Know
-For this to work, you also need a way to render Atomic images. I have included my implementation of it in this repo, but AtomicImage is not part of this plugin.
+For this to work, you also need a way to render Atomic images. I have included my implementation of it in this repo as a quick example, but AtomicImage is not part of this plugin.
 
 You will probably want to modify AtomicImage to your particular needs.
 
